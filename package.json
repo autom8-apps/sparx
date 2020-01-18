@@ -1,0 +1,45 @@
+{
+  "name": "sparx",
+  "version": "0.0.0",
+  "description": "A framework to spark joi.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "dependencies": {
+    "axios": "^0.19.0",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "db-migrate": "^0.11.6",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-validation": "^1.0.3",
+    "inversify": "^5.0.1",
+    "joi": "^14.3.1",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "@types/mocha": "^5.2.1",
+    "@types/node": "^8.0.47",
+    "@typescript-eslint/eslint-plugin": "^2.7.0",
+    "@typescript-eslint/parser": "^2.7.0",
+    "eslint": "^6.8.0",
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "faker": "^4.1.0",
+    "mocha": "^7.0.0",
+    "sinon": "^8.0.4",
+    "ts-mockito": "^2.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/autom8-apps/sparx.git"
+  },
+  "author": "Autom8",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/autom8-apps/sparx/issues"
+  },
+  "homepage": "https://github.com/autom8-apps/sparx#readme"
+}
